@@ -1,0 +1,5 @@
+# Device		Mountpoint	FStype	Options		Dump	Pass#
+/dev/ada1p2		none	swap	sw		0	0
+proc			/proc	procfs	rw		0	0
+fdesc			/dev/fd	fdescfs	rw,auto,late	0	0
+linproc	/compat/linux/proc linprocfs,auto,late	rw	0	0
